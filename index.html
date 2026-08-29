@@ -15,7 +15,7 @@
     <link rel="icon" href="heritage-silks-logo.jpeg" type="image/jpeg">
 
     <!-- external icon -->
-<link rel="stylesheet" href="     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css
 ">
 
     <!-- Google Font -->
@@ -79,21 +79,24 @@
         <section id="about">
             <div class="about-container">
                 <div class="about-image">
-                    <img src="sarees/banana-chinnalapatti-silk-saree.webp" alt="">
+                    <img src="sarees/about-saree.png" alt="Elegance">
                 </div>
 
                 <div class="about-content">
                     <span class="about-title">ABOUT Heritage Silks</span>
 
-                    <h2>Where Every saree <br>
-                        Tells a Story
+                    <h2>Timeless Elegance <br>
+                        Woven in Every Thread
                     </h2>
 
-                    <p>At TasteCraft, we believe that great food is more than just a meal. It is an experience created
-                        with passion, fresh ingredients, and carefully crafted flavors.</p>
+                    <p> At Heritage Silks, we bring together the timeless beauty of
+        Indian handloom traditions and the elegance of modern celebrations.
+        Every saree is carefully selected for its quality, craftsmanship,
+        colours and unique character.</p>
 
-                    <p>Our chefs combine traditional flavors with modern culinary techniques to create delicious dishes
-                        that bring people together and make every dining experience memorable.</p>
+                    <p>   From graceful silk sarees for weddings to elegant cotton sarees
+        for everyday occasions, our collection celebrates the rich textile
+        heritage of India and the skilled artisans who keep these traditions alive.</p>
 
                     <div class="about-feature">
                         <div class="feature">Pure Silk Saree</div>
@@ -178,7 +181,7 @@
                     </div>
                 </article>
                 <article class="product">
-                    <div class="product-image"><img src="sarees/traditional-sarees.jpg" alt="Traditional Sarees"></div>
+                    <div class="product-image"><img src="sarees/traditional.jpg" alt="Traditional Sarees"></div>
                     <div class="tag">m</div>
                     <div class="details">
                         <h3>Traditional Sarees</h3>
@@ -234,14 +237,15 @@
                <a href="#story">Our Story</a>
                <a href="#collection">Collection</a>
                <a href="#occasion">Occasion</a>
-               <a href="#contact"></a>
+               <a href="#contact">Contact</a>
             </div>
-            <div>
-                <h4>Stay in touch</h4><a href="https://wa.me/916374611429" target="_blank" rel="noopener">WhatsApp: +91
-                    63746 11429</a><a href="https://www.instagram.com/heritagesilksonline?igsi=MThyOWRjZTc3czBt"
-                    target="_blank" rel="noopener">Instagram: @heritagesilksonline</a><a
-                    href="https://youtube.com/@heritagesilks?si=EuzhYyzOFyLws3FR" target="_blank"
-                    rel="noopener">YouTube: @heritagesilks</a>
+            <div class="social-logo">
+                <h4>Stay in touch</h4>
+                <div class="social-icon">
+                <a href="https://www.instagram.com/heritagesilksonline?igsi=dXpuY28xa2ljOXZn" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com/@heritagesilks?si=SRHbLaZp9T8cm536" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://wa.me/916374611429?text=Hello%20Heritage%20Silks%2C%20I%20would%20like%20to%20know%20more%20about%20your%20sarees." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
             </div>
         </div>
         <div class="copyright">© 2026 Heritage Silks. Celebrate Every Occasion in Silk.</div>
@@ -269,6 +273,15 @@
             toggler.classList.toggle("active");
             navbarLinks.classList.toggle("active");
         });
+
+
+
+        document.querySelectorAll('.navbar-link a').forEach(link => {
+  link.addEventListener('click', () => {
+    toggler.classList.remove('active');
+    navbarLinks.classList.remove('active');
+  });
+});
     </script>
 </body>
 
